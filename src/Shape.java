@@ -1,5 +1,4 @@
-public class Shape {
-    public void shapeName(String name){
-        System.out.println("name = " + name);
-    }
+public abstract class Shape {
+    public abstract String getName();
+
 }
